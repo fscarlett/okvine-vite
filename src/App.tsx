@@ -3,6 +3,7 @@ import './App.css'
 import Welcome from './components/Welcome'
 import HomeMap from './components/HomeMap'
 import HappeningSoon from './components/HappeningSoon'
+import TopPicks from './components/TopPicks'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Welcome />
       <HomeMap />
       <HappeningSoon />
+      <TopPicks />
       <section>
         <h1>OK Vine</h1>
         <h2>Food and Entertainment for Vinedale </h2>
