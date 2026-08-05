@@ -1,3 +1,5 @@
+import TopPickCard from './TopPickCard'
+
 function TopPicks() {
   return (
     <section className='flex flex-col items-start w-full mx-auto justify-start gap-1 px-2 py-4 bg-olive-100 text-olive-800'>
@@ -5,9 +7,15 @@ function TopPicks() {
         <h2>Tonight's Top Picks</h2>
         <p>Personalized for you</p>
         <div className='w-full flex flex-row items-start justify-start gap-2 flex-wrap'>
-          <div className='bg-white w-[600px] h-64'>TOP PICK 1</div>
-          <div className='bg-white w-[600px] h-64'>TOP PICK 2</div>
-          <div className='bg-white w-[600px] h-64'>TOP PICK 3</div>
+          <TopPickCard />
+          <TopPickCard />
+          <TopPickCard />
+          <TopPickCard />
+          <TopPickCard />
+          <TopPickCard />
+          <TopPickCard />
+          <TopPickCard />
+          <TopPickCard />
         </div>
       </div>
     </section>
