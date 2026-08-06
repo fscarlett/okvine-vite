@@ -95,3 +95,25 @@ h2 {
 p {
   margin: 0;
 }
+
+a.active {
+  background-color: var(--color-olive-200);
+  color: var(--color-olive-800);
+  text-decoration: underline;
+}
+
+.main-nav a:hover {
+  background-color: var(--color-olive-400);
+  color: var(--color-olive-900);
+  text-decoration: underline;
+}
+
+.main-nav a:active {
+  background-color: var(--color-olive-600);
+  color: var(--color-olive-200);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
