@@ -11,8 +11,8 @@ function Header() {
             </div>
             <div className='items-center flex '>
               <div className='search px-2'>search</div>
-              <div className='login px-2'>login button</div>
-              <div className='burger py-3'>burger menu ?</div>
+              <div className='login px-2'>login </div>
+              {/* <div className='burger py-3'>burger menu ?</div> */}
             </div>
           </div>
         </div>
