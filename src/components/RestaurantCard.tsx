@@ -1,8 +1,8 @@
 function RestaurantCard() {
   return (
     <div className='flex flex-col w-full rounded-2xl shadow-sm min-h-[150px] bg-olive-50 text-olive-900 border border-olive-200'>
-      <div className='rest-card-top flex flex-row justify-start items-start gap-0'>
-        <div className='r-card-image-wrapper h-[100px] w-[150px] rounded-tl-2xl bg-olive-600'>
+      <div className='rest-card-top flex flex-row justify-start items-start gap-0 border-b border-olive-400'>
+        <div className='r-card-image-wrapper h-[150px] w-[190px] rounded-tl-2xl bg-olive-600'>
           {' '}
           image
         </div>
