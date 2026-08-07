@@ -117,3 +117,17 @@ a.active {
 footer a:hover {
   text-decoration: underline;
 }
+
+summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding-right: 20px;
+}
+
+summary::marker {
+  content: 'V';
+  color: var(--color-olive-900);
+  position: absolute;
+  /* right: 30px; */
+}

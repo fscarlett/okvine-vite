@@ -44,7 +44,7 @@ function EventsMainFilterBar() {
           <button className='font-semibold py-1 px-6 rounded-2xl bg-olive-100 text-olive-900 text-xs border border-olive-900'>
             Rock
           </button>
-          <button className='font-semibold py-1 px-6 rounded-2xl bgRock-olive-100 text-olive-900 text-xs border border-olive-900'>
+          <button className='font-semibold py-1 px-6 rounded-2xl bg-olive-100 text-olive-900 text-xs border border-olive-900'>
             Other
           </button>
         </div>
