@@ -3,9 +3,9 @@ import './App.css'
 import HomeMap from './components/HomeMap'
 import HappeningSoon from './components/HappeningSoon'
 import TopPicks from './components/TopPicks'
-import Explore from './components/Explore'
 import StatusSection from './components/StatusSection'
 import HomeWelcome from './components/HomeWelcome'
+import HomeExploreSection from './components/HomeExploreSection'
 
 function App() {
   return (
@@ -15,11 +15,7 @@ function App() {
       <HomeMap />
       <HappeningSoon />
       <TopPicks />
-      <Explore />
-      <section>
-        <h1>OK Vine</h1>
-        <h2>Food and Entertainment for Vinedale </h2>
-      </section>
+      <HomeExploreSection />
     </div>
   )
 }
