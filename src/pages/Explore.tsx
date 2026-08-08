@@ -6,7 +6,7 @@ function ExplorePage() {
   return (
     <div className='min-h-screen w-full flex flex-col items-center justify-start '>
       <div className='container max-w-[1350px] mx-auto flex flex-col justify-start items-start gap-4 px-1.5 py-4'>
-        Explore Page
+        <h1 className='text-xl font-bold uppercase italic'>Explore</h1>
       </div>
       <ExploreTopFilterBar />
       <ExploreMainFilterBar />

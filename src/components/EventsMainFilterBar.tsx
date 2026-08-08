@@ -4,7 +4,7 @@ function EventsMainFilterBar() {
       <div className='container max-w-[1350px] mx-auto flex flex-col justify-start items-start gap-4 px-1.5 py-4'>
         <div className='titlebar flex flex-row justify-between items-center w-full'>
           <div className='content-wrapper flex flex-col gap-1 items-start justify-start'>
-            <h2 className='text-xl font-semibold text-olive-900'>Events</h2>
+            <h1 className='text-xl font-bold uppercase italic'>Events</h1>
             <p className='text-olive-700 text-xs'>food, music and culture</p>
           </div>
           <div className='badges-wrapper flex flex-row items-center justify-end gap-2'>
