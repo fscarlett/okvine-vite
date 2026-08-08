@@ -1,5 +1,9 @@
+import AccountAboutTheApp from '../components/AccountAboutTheApp'
+import AccountDietaryFilters from '../components/AccountDietaryFilters'
+import AccountNotifications from '../components/AccountNotifications'
 import AccountRecipeFilters from '../components/AccountRecipeFilters'
 import AccountSavedRestaurants from '../components/AccountSavedRestaurants'
+import AccountSignoutBar from '../components/AccountSignoutBar'
 import AccountTasteProfile from '../components/AccountTasteProfile'
 import AccountUserBar from '../components/AccountUserBar'
 
@@ -12,6 +16,10 @@ function AccountPage() {
         <AccountTasteProfile />
         <AccountSavedRestaurants />
         <AccountRecipeFilters />
+        <AccountDietaryFilters />
+        <AccountNotifications />
+        <AccountAboutTheApp />
+        <AccountSignoutBar />
       </div>
     </div>
   )

@@ -1,3 +1,5 @@
+OKVine version 0.1.0
+
 react - vite - TS. front end for city food recommendations mvp test called OKVine
 developer Fox Scarlett fox@foxscarlett.com
 concept John Gasquet johngasquet@gmail.com
